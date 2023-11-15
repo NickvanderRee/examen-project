@@ -1,5 +1,5 @@
 <header>
         <div class="image">
-        <img class="overheid-logo" src="../school project/overheid.png" alt="">
+        <img class="overheid-logo" src="../school project/views/overheid.png" alt="">
         </div>
 </header>
