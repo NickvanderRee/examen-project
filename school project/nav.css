@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --blue: #154273;
+    --white: #ffffff;
+}
+
+div.image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+img.overheid-logo{
+    height: 14vh;
+}
+
+header{
+    height: auto;
+}
+
+.nav{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: var(--blue);
+    
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-right: 2vw;
+}
+
+.nav-btn{
+    border: none;
+    margin: 2.5vh;
+    margin-right: 5vh;
+    background-color: var(--blue);
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+.left{
+    margin-right: 62vw;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
