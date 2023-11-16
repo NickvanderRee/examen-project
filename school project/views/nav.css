@@ -11,7 +11,7 @@
 div.image{
     display: flex;
     justify-content: center;
-    margin-bottom: 5vh;
+    margin-bottom: -1vh;
 }
 
 img.overheid-logo{
@@ -31,10 +31,6 @@ header{
 
 ul {
     display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
     list-style-type: none;
     margin-right: 2vw;
 }
@@ -48,8 +44,21 @@ ul {
     font-weight: 600;
 }
 
+.home{
+    width: 10%;
+}
+
 .left{
-    margin-right: 62vw;
+    float: left;
+    margin-left: 3vw;
+}
+
+.rest{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 90%;
 }
 
 a{
